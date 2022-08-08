@@ -1,9 +1,14 @@
 import React from 'react';
+import Category from '../components/Category';
+import NewsView from './NewsView';
+import { useParams } from 'react-router-dom';
 
 const Home = () => {
+  const params = useParams()
   return (
     <div>
-      Home
+      {!params && <Category />}
+      <NewsView />
     </div>
   );
 };
