@@ -1,11 +1,11 @@
 import React from 'react';
 
-const App = () => {
+const NewsView = () => {
   return (
     <div>
-      
+      NewsView
     </div>
   );
 };
 
-export default App;
+export default NewsView;
